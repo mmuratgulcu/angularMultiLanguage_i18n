@@ -1,0 +1,26 @@
+{
+    "home": {
+      "tr": "Anasayfa",
+      "en": "Homepage"
+    },
+    "campaigns": {
+      "tr": "Kampanyalar",
+      "en": "Campaigns"
+    },
+    "recentlyAdded": {
+      "tr": "Son eklenen ürünler",
+      "en": "Recently added products"
+    },
+    "bestsellers": {
+      "tr": "Çok satan ürünler",
+      "en": "Best selling products"
+    },
+    "homeWorks": {
+      "tr": "anasayfa çalışıyor!",
+      "en": "home works!"
+    },
+    "campaignWorks": {
+      "tr": "kampanyalar çalışıyor!",
+      "en": "campaigns works!"
+    }
+  }

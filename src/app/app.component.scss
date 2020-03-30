@@ -1,0 +1,32 @@
+header {
+    background-color: #f9f9f9;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          cursor: pointer;
+          transition: .3s;
+          img {
+            width: 30px;
+            margin: 0 5px;
+          }
+          &:hover {
+            background-color: #f3f3f3;
+          }
+        }
+      }
+      &.left-menu {
+        li {
+          a {
+            padding: 15px;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+<header>
+  <ul class="left-menu">
+    <li><a routerLink="/">{{ 'home' | translate }}</a></li>
+    <li><a routerLink="campaigns">{{ 'campaigns' | translate }}</a></li>
+    <li><a>{{ 'recentlyAdded' | translate }}</a></li>
+    <li><a>{{ 'bestsellers' | translate }}</a></li>
+  </ul>
+  <ul class="right-menu">
+    <li><a (click)="translateService.use('tr')"><img src="https://lipis.github.io/flag-icon-css/flags/4x3/tr.svg"></a></li>
+    <li><a (click)="translateService.use('en')"><img src="https://lipis.github.io/flag-icon-css/flags/4x3/gb.svg"></a></li>
+  </ul>
+</header>
+<router-outlet></router-outlet>
